@@ -1,0 +1,30 @@
+.modal {
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    transform: translateY(-55%) translateX(50%);
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 100px 300px;
+}
+
+.modal__close {
+    display: none;
+}
+
+.button__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 35px;
+    font-weight: 900;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    &:hover {
+        color: rgb(214, 66, 66);
+    }
+}

@@ -1,0 +1,20 @@
+.navbar {
+    display: grid;
+    grid-template-columns: 1200px auto;
+    width: 100%;
+    height: 60px;
+    padding: 0 50px;
+    ul {
+        color: white;
+        font-size: 16px;
+    }
+    button {
+        background-color: white;
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        font-size: 15px;
+        color: rgb(226, 12, 66);
+        font-weight: 700;
+    }
+}
